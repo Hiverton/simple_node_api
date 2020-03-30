@@ -3,7 +3,7 @@ const router = express.Router();
 router.get('/', function (req, res, next) {
     res.status(200).send({
         title: "Node Express API",
-        version: "1.0.0"
+        version: "2.0.0"
     });
 });
 module.exports = router;
